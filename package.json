@@ -1,6 +1,6 @@
 {
   "name": "kelvinjs-trx",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "kelvinjs-trx",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -8,7 +8,7 @@
     "lib"
   ],
   "engines": {
-    "node": ">=10.0.0"
+    "node": "^10"
   },
   "repository": {
     "type": "git",
@@ -16,11 +16,11 @@
   },
   "license": "ISC",
   "dependencies": {
-    "bignumber.js": "^9.0.0",
-    "google-protobuf": "^3.10.0-rc.1",
-    "kelvinjs-protob": "git+https://github.com/KelvinWallet/kelvinjs-protob.git#v1.0.0",
-    "secp256k1": "^3.7.1",
-    "trongrid": "^1.2.2",
+    "bignumber.js": "9.0.0",
+    "google-protobuf": "3.10.0",
+    "kelvinjs-protob": "git+https://github.com/KelvinWallet/kelvinjs-protob.git#v1.0.1",
+    "secp256k1": "3.7.1",
+    "trongrid": "1.2.2",
     "tronweb": "2.7.2"
   },
   "devDependencies": {
@@ -33,7 +33,7 @@
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
-    "kelvinjs-usbhid": "git+https://github.com/KelvinWallet/kelvinjs-usbhid.git#v1.0.0",
+    "kelvinjs-usbhid": "git+https://github.com/KelvinWallet/kelvinjs-usbhid.git#v1.0.1",
     "prettier": "1.16.4",
     "rimraf": "^3.0.0",
     "ts-node": "^8.4.1",
