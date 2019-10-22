@@ -3985,7 +3985,7 @@ trongrid@^1.2.2:
     "@babel/runtime" "^7.0.0"
     babel-runtime "^6.26.0"
 
-tronweb@^2.7.1:
+tronweb@2.7.2:
   version "2.7.2"
   resolved "https://registry.yarnpkg.com/tronweb/-/tronweb-2.7.2.tgz#65ef246822325ab6e5182acecaba756019fa1d47"
   integrity sha512-bm6PK/LG5Flnm7EmMe599NZtNPlDJfAvJRNan92HGTRc3rC6GjMnQCqFNXHcekt7kROX9DjuQeOttp9tYpPjAg==

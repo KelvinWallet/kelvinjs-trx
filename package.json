@@ -1,6 +1,6 @@
 {
   "name": "kelvinjs-trx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "kelvinjs-trx",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -21,7 +21,7 @@
     "kelvinjs-protob": "git+https://github.com/KelvinWallet/kelvinjs-protob.git#v1.0.0",
     "secp256k1": "^3.7.1",
     "trongrid": "^1.2.2",
-    "tronweb": "^2.7.1"
+    "tronweb": "2.7.2"
   },
   "devDependencies": {
     "@types/node": "^12.7.5",
