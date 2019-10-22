@@ -1,0 +1,64 @@
+{
+  "name": "kelvinjs-trx",
+  "version": "1.0.0",
+  "description": "kelvinjs-trx",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KelvinWallet/kelvinjs-trx.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^9.0.0",
+    "google-protobuf": "^3.10.0-rc.1",
+    "kelvinjs-protob": "git+https://github.com/KelvinWallet/kelvinjs-protob.git#v1.0.0",
+    "secp256k1": "^3.7.1",
+    "trongrid": "^1.2.2",
+    "tronweb": "^2.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "@types/node-hid": "^0.7.3",
+    "@types/secp256k1": "^3.5.0",
+    "ava": "^2.4.0",
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "kelvinjs-usbhid": "git+https://github.com/KelvinWallet/kelvinjs-usbhid.git#v1.0.0",
+    "prettier": "1.16.4",
+    "rimraf": "^3.0.0",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.14.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.3.4000"
+  },
+  "ava": {
+    "files": [
+      "src/**/*.spec.ts"
+    ],
+    "compileEnhancements": false,
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  },
+  "scripts": {
+    "prebuild": "tslint -p .",
+    "build": "rimraf lib/* && tsc",
+    "pretest": "tslint -p .",
+    "test": "ava",
+    "sample": "ava test/index.ts --verbose --serial"
+  }
+}
