@@ -1,6 +1,6 @@
 {
   "name": "kelvinjs-trx",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "kelvinjs-trx",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -33,7 +33,7 @@
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
-    "kelvinjs-usbhid": "git+https://github.com/KelvinWallet/kelvinjs-usbhid.git#v1.0.1",
+    "kelvinjs-usbhid": "git+https://github.com/KelvinWallet/kelvinjs-usbhid.git#v1.0.3",
     "prettier": "1.16.4",
     "rimraf": "^3.0.0",
     "ts-node": "^8.4.1",
